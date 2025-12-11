@@ -1,0 +1,27 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 269075879707189
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 432995065891814,
+					"parameters": {
+						"layout": "Juego"
+					}
+				}
+			],
+			"sid": 239905648875974
+		}
+	],
+	"sid": 148520589974322
+}

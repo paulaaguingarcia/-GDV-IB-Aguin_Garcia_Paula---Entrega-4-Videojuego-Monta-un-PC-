@@ -1,0 +1,61 @@
+{
+	"name": "Hoja de eventos 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón3",
+					"sid": 996950501724455
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 430885534726535,
+					"parameters": {
+						"layout": "Inicio"
+					}
+				}
+			],
+			"sid": 909271090580891
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-drag-start",
+					"objectClass": "cpu_cooler",
+					"sid": 152718181110930,
+					"behaviorType": "ArrastrarYSoltar"
+				}
+			],
+			"actions": [],
+			"sid": 978456544421110
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón5",
+					"sid": 266525171986076
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 582199564238688,
+					"parameters": {
+						"layout": "Fin"
+					}
+				}
+			],
+			"sid": 300785453184237
+		}
+	],
+	"sid": 192436324746081
+}

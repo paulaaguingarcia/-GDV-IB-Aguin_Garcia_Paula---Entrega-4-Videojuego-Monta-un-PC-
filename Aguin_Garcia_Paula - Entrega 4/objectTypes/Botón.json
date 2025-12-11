@@ -1,0 +1,9 @@
+{
+	"name": "Botón",
+	"plugin-id": "Button",
+	"sid": 405623167398107,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}
